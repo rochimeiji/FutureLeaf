@@ -229,7 +229,8 @@ ul.customBullet li a:hover { text-decoration: none; }
 .project .main-image-holder .screenshots { float: left; display: inline;  width: 958px; height: 385px; position: relative; overflow: hidden; margin: 11px 0 0 20px; }
 .project .main-image-holder .screenshots .inner-slider {}
 .project .main-image-holder .screenshots .inner-slider ul { list-style: none outside none; }
-.project .main-image-holder .screenshots .inner-slider ul li { float: left; display: inline;  }
+.project .main-image-holder .screenshots .inner-slider ul li { float: left; display: inline;}
+.project .main-image-holder .screenshots .inner-slider ul li img { width:958px !important;}
 .project .arrows-holder  { bottom: 11px; left: 471px; }
 .project .description { float: left; display: inline;  width: 570px; }
 .project .description .cross-btn { margin-top: 20px; }
@@ -433,8 +434,8 @@ ul.gallery-classic li .magnifier { position: absolute; display: none; width: 160
 .project-item .image-holder .four-arrows { left: 10px;  }
 .project-item .image-holder .arrows-holder { right: 15px; bottom: 13px; }
 .project-item .image-holder .screenshots { float: left; display: inline;  width: 618px; height: 385px; position: relative; overflow: hidden; margin: 11px 0 0 21px; }
-.project-item .image-holder .screenshots .inner-slider ul { list-style: none outside none; }
-.project-item .image-holder .screenshots .inner-slider ul li { float: left; display: inline; }
+.project-item .image-holder .screenshots .inner-slider ul { list-style: none outside none;}
+.project-item .image-holder .screenshots .inner-slider ul li { float: left; display: inline;}
 
 ul.gallery-projects { list-style: none outside none; }
 ul.gallery-projects li { position: relative;  float: left; display: inline; width: 316px; min-height: 415px; background: url(images/gallery-project-image-holder.png) no-repeat 0 0; margin-right: 15px; margin-bottom: 50px; }
